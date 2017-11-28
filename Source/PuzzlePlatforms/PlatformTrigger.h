@@ -30,4 +30,7 @@ protected:
 private:
 	UPROPERTY(VisibleAnywhere)
 	class UBoxComponent* TriggerVolume;
+
+	UPROPERTY(EditAnywhere)
+	TArray<class AMovingPlatform*> PlatformsToTrigger;
 };
