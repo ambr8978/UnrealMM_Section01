@@ -24,6 +24,8 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void LoadMenu();
 
+	void EnableMainMenuMouseUI(UUserWidget* Menu);
+
 private:
 	TSubclassOf<class UUserWidget> MenuClass;
 };
